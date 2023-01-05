@@ -33,7 +33,7 @@ margin-top: 10px;
 
     background-color: rgb(86, 191, 194);
     color: white;
-    padding: 50px;
+
     margin: 90px 100px 100px;
     
     font-family: 'Playfair Display', serif;
@@ -52,8 +52,11 @@ margin-top: 10px;
    align-items: center;
    
 }
+.provostDetails{
+    padding: 20px;
+}
 .footer{
-    position: relative !important;
+    position:fixed !important;
     bottom: 0px;
     
 }
@@ -61,19 +64,14 @@ margin-top: 10px;
     background-color: white;
 }
 @media screen and (max-width:520px){
-  .footer{
-    position: relative !important;
-  }
+ 
     
 }
 @media screen and (max-width:400px){
     .provost{
-        margin: 20px;
+        margin: 50px;
     }
-    .footer{
-        position:relative !important;
-        bottom: 0px;
-    }
+   
    
     
     
@@ -82,10 +80,6 @@ margin-top: 10px;
     .provost{
         margin: 7px;
     }
-    .footer{
-        position: relative !important;
-        bottom: 0px !important;
-        overflow: hidden;
-    }
+   
     
 }

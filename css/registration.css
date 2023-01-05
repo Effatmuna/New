@@ -109,7 +109,7 @@ input{
     position: absolute;
     top:70px;
     right: 30px;
-    background: #010405;
+    background: #0287b3;
     width: 32px;
     height: 32px;
     line-height: 33px;
@@ -179,7 +179,7 @@ input{
     padding:10px;
     color: white;
     border: none;
-    background-color: navy;
+    background-color: rgb(27, 175, 216);
     border-radius: 5px;
     font-weight: bold;
 }
@@ -187,7 +187,7 @@ input{
     padding:10px;
     color: white;
     border: none;
-    background-color: navy;
+    background-color: rgb(27, 175, 216);
     border-radius: 5px;
     font-weight: bold;
 }/*
@@ -242,7 +242,7 @@ input{
         bottom:0px;
     }
     .upload img{
-        margin-left: 7px;
+        margin-left: 10px;
         margin-bottom: 5px;
     }
    
@@ -253,11 +253,16 @@ input{
 }
 @media screen and (max-width:360px){
     .form{
-        padding:20px;
+        padding: 20px;
     }
-    .navbar{
-        
+    
+}
+@media screen and (max-width:250px){
+    .container{
+        margin:10px;
     }
-   
+    .form{
+        padding: 10px;
+    }
     
 }

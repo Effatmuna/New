@@ -7,11 +7,7 @@
     position: sticky;
 }
 .contactUs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+   
     font-family: 'Playfair Display', serif;
     font-family: 'PT Serif', serif;
     font-family: 'Rubik Vinyl', cursive;
@@ -21,7 +17,8 @@
    
 }
 .contactUs h1{
-    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 30px;
 
 }
 .act{
@@ -32,18 +29,17 @@
    align-items: center;
 }
 .provost{
-      display: flex;
-      text-align: center;
-     
+   
+   margin:50px 100px 100px;
    
     
 }
 .provostDetails{
     background-color: rgb(67, 200, 230);
-    padding: 90px;
-    margin: 10px 5px 0px;
+   text-align: center;
     color: rgb(30, 8, 8);
     color: white;
+    padding: 40px;
 }
 .provostDetails h2{
     font-family: 'Playfair Display', serif;
@@ -59,18 +55,27 @@
     
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:400px) {
     .provostDetails{
-        padding: 40px;
+        padding: 30px;
     
     }
     .provost{
+        
         text-align: center;
-        height:300px;
+        margin: 50px;
+    }
+    .footer{
+        position: fixed;
+        bottom: 0px;
     }
 }
-@media screen and (max-width:260px) {
-    
+@media screen and (max-width:300px) {
+    .provost{
+        margin: 15px;
+        padding: 5px;
+
+    }
     .provostDetails{
         padding: 20px;
         text-align: center;
@@ -78,6 +83,10 @@
     }
     .act{
         width:170px;
+    }
+    .footer{
+        position: fixed;
+        bottom: 0px;
     }
     
 }
