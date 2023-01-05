@@ -1,0 +1,146 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+
+.modal{
+    
+    
+    padding: 50px;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: yellow;
+    display: none;
+
+}
+.cross{
+    position: relative;
+    left:150px;
+    top:-20px;
+    background-color: black;
+    padding: 5px;
+}
+.navbar{
+    position: sticky;
+}
+.logInform{
+
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    flex-wrap: wrap;
+    margin:0px 350px;
+
+    
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(170, 202, 202);
+    padding: 20px;
+    height: 350px;
+
+
+}
+input{
+    padding: 10px;
+
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+.button{
+    
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+    
+}
+
+.update{
+    padding: 7px;
+    flex-direction: row;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 6px;
+   
+    
+}
+.cancel{
+
+    padding: 7px;
+    flex-direction: row;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 6px;
+   
+    
+}
+
+@media screen and (max-width:1024px) {
+    .logInform{
+        padding: 50px;
+        margin: 0px 70px;
+        height: 700px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .logInform{
+        padding: 50px;
+        margin: 0px 70px;
+    }
+    
+}
+@media screen and (max-width:430px) {
+   .logInform{
+    text-align: center;
+    
+    margin: -40px 20px 20px;
+   }
+   .info{
+    height: 400px;
+   }
+}
+@media screen and (max-width:310px) {
+    .logInform{
+        padding: 5px;
+       margin-top: 20px;
+    }
+    
+ }
+ @media screen and (max-width:200px) {
+    .logInform{
+        margin: 0px;
+        
+    }
+    input{
+        width:150px;
+    }
+    .info{
+        margin-top: 30px;
+    }
+   
+ }
+ 

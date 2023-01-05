@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.header{
+    padding:20px;
+    box-shadow: 1px 1px 1px black;
+    background-color:paleturquoise;
+}
+.navbar{
+    position: relative;
+}
+.header .logo{
+    border-radius: 100%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.header img{
+    width:70px;
+    height:70px;
+    
+}
+.navbar .dropdown{
+    position: absolute;
+    top:50px;
+    color:black;
+    width:150px;
+    margin-left: -10px;
+    display: none;
+    
+    
+    
+}
+.rules{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.rulesH {
+    border:1px solid black;
+    
+    color: white;
+    border-radius: 5px;
+    
+    margin: 10px;
+    width:500px;
+    
+
+}
+.rulesHeader{
+
+    font-size: 20px;
+    font-weight: 200px;
+    text-align: center;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(220, 211, 43);
+   padding:5px;
+   margin: 10px;
+   
+    
+
+
+   
+}
+.Rules{
+    
+
+    padding:30px;
+    font-weight: normal;
+  
+    
+
+    
+}
+.Rules h4{
+    margin-top: 10px;
+    font-size: medium;
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'PT Serif', serif;
+
+    font-family: 'Rubik Vinyl', cursive;
+
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+.footer{
+    position: relative;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:450px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .details{
+        text-align: center;
+    }
+    
+}

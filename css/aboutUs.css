@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    position: relative;
+}
+.navbar{
+    position: sticky;
+}
+
+
+.Aboutsection{
+
+margin-top: 30px;
+    
+  
+    
+}
+.AboutHeader{
+    border-bottom:orange 2px solid;
+    width:200px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+   
+    margin: auto;
+    
+}
+.AboutDetails{
+    padding:20px;
+}
+.Aboutsection p{
+  
+    
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+@media screen and (max-width:750px) {
+    .Aboutsection{
+        
+    }
+    .footer{
+        position: fixed;
+        bottom: 0px;
+    }
+  
+}
+@media screen and (max-width:650px) {
+    .Aboutsection{
+        
+    }
+    .footer{
+        position: fixed;
+        bottom: 0px;
+    }
+  
+}
+@media screen and (max-width:450px) {
+    .Aboutsection{
+
+    }
+    
+
+    .footer{
+        position:relative;
+        bottom: 0px;
+    }
+  
+   
+}
+@media screen and (max-width:325px) {
+    .Aboutsection{
+        top:0px;
+    }
+    .Aboutsection h1{
+        font-size: 25px;
+    }
+    .Aboutsection p{
+        font-size: 12px;
+    }
+   
+}
+@media screen and (max-width:250px) {
+    .Aboutsection{
+        top:0px;
+    }
+    .Aboutsection h1{
+        font-size: 23px;
+    }
+    .Aboutsection p{
+        font-size: 10px;
+    
+    }
+    .AboutHeader{
+        
+        width:150px;
+        text-align: center;
+       
+      
+    }
+   
+}

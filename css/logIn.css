@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+
+.navbar{
+    position: sticky;
+}
+.logInform{
+
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    flex-wrap: wrap;
+    margin:0px 350px 350px;
+
+    
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(170, 202, 202);
+    padding: 50px;
+    height: 350px;
+
+
+}
+input{
+    padding: 10px;
+
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+.button{
+    
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+    
+}
+.save{
+    padding: 7px;
+    flex-direction: row;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 6px;
+   
+    
+}
+
+.forget{
+    text-decoration: none;
+    color:black;
+    
+}
+
+
+@media screen and (max-width:950px) {
+    .logInform{
+        padding: 50px;
+        margin:-10px 10px 30px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .logInform{
+        padding: 50px;
+        margin:-20px 30px 30px;
+    }
+    
+}
+@media screen and (max-width:430px) {
+   .logInform{
+    text-align: center;
+    margin: -90px 20px 20px 20px;
+   }
+   .info{
+    height: 400px;
+   }
+}
+@media screen and (max-width:310px) {
+    .logInform{
+    padding: 0px;
+       margin-top: -50px;
+    }
+  
+ }
+ @media screen and (max-width:240px) {
+    .logInform{
+        margin-top: -50px;
+        
+    }
+    .info{
+        margin-top: 30px;
+    
+
+    }
+    input{
+        width:150px;
+    }
+   
+   
+ }
+ 

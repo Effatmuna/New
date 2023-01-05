@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.navbar{
+    position: sticky;
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+   
+}
+.contactUs h1{
+    margin-bottom: 20px;
+
+}
+.act{
+    border-bottom:orange 2px solid;
+    width:200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.provost{
+      display: flex;
+      text-align: center;
+     
+   
+    
+}
+.provostDetails{
+    background-color: rgb(67, 200, 230);
+    padding: 90px;
+    margin: 10px 5px 0px;
+    color: rgb(30, 8, 8);
+    color: white;
+}
+.provostDetails h2{
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    
+    
+}
+
+@media screen and (max-width:360px) {
+    .provostDetails{
+        padding: 40px;
+    
+    }
+    .provost{
+        text-align: center;
+        height:300px;
+    }
+}
+@media screen and (max-width:260px) {
+    
+    .provostDetails{
+        padding: 20px;
+        text-align: center;
+    
+    }
+    .act{
+        width:170px;
+    }
+    
+}
