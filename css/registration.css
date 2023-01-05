@@ -21,12 +21,12 @@ z-index: 999;
     
 }
 .container{
+    
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    margin: 70px 70px 70px;
+    margin: 70px 100px 100px;
 
     
 }
@@ -73,11 +73,14 @@ z-index: 999;
     
 }
 .form{
-
-   padding:30px 70px 70px;
-  position: relative;
+   display: flex;
+   flex-direction: column;
+   padding:30px 50px 50px;
+justify-content: center;
+align-items: center;
   background-color: rgb(129, 196, 232);
   text-align: center;
+  
 
   
 
@@ -107,7 +110,7 @@ input{
   
   .upload .round{
     position: absolute;
-    top:70px;
+    top:50px;
     right: 30px;
     background: #0287b3;
     width: 32px;
@@ -238,7 +241,7 @@ input{
         flex-direction: column;
     }
     .upload{
-        margin-left: 70px;
+        margin-left: 55px;
         bottom:0px;
     }
     .upload img{
@@ -269,6 +272,9 @@ input{
     }
     .dep{
         width: 90px;
+    }
+    .upload{
+        margin-left: 20px;
     }
     .address textarea{
         
