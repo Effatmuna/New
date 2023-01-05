@@ -238,7 +238,7 @@ input{
         flex-direction: column;
     }
     .upload{
-        margin-left: 60px;
+        margin-left: 70px;
         bottom:0px;
     }
     .upload img{
@@ -259,10 +259,20 @@ input{
 }
 @media screen and (max-width:250px){
     .container{
-        margin:10px;
+        margin:5px;
     }
     .form{
-        padding: 10px;
+        padding: 2px;
+    }
+    input{
+        width:90px;
+    }
+    .dep{
+        width: 90px;
+    }
+    .address textarea{
+        
+        text-align: center;
     }
     
 }
