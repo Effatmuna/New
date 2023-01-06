@@ -9,7 +9,7 @@ body{
 }
 .navbar{
     position: sticky;
-    top:0px;
+    top:0px !important;
 }
 
 
@@ -55,12 +55,11 @@ margin-top: 30px;
   
 }
 @media screen and (max-width:650px) {
-    .Aboutsection{
-        
-    }
+  
     .footer{
-        position: fixed;
+        position: sticky;
         bottom: 0px;
+        z-index: 2;
     }
   
 }

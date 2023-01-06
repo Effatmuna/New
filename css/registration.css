@@ -13,8 +13,9 @@ body{
     
 }
 .navbar{
-    position:sticky;
-z-index: 999;
+    position:sticky !important;
+    top: 0px !important;
+z-index:999;
 
     
     
