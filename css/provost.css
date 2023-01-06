@@ -100,7 +100,7 @@
    }
   
     .footer{
-        position: relative !important;
+        position: fixed !important;
         bottom: 0px !important;
 
     }
