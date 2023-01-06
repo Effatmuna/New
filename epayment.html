@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css">
-    
+    <link rel="stylesheet" href="css/epayment.css">
     <link rel="stylesheet" href="css/rules.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=PT+Serif&family=Rubik+Vinyl&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -69,47 +69,85 @@
        </header>
 
        <!--Hall Fee-->
+       <div class="container">
        <form>
             
-        <div class="regis formgroup">
+      
             <div class="regis">
             <label for="regis">Registration No</label><br>
             <input type="number" name="number" id="number" placeholder="Enter your Registration No." class="input">
             </div>
-            <div class="password">
-               <label for="password">Password</label><br>
-               <input type="password" name="password" id="password" class="input">
-            </div>
-         </div>
-       
-
-
+           <div class="depBatch">
+              <div class="depart">
+              <label for="department">Department</label><br>
+              <select class="dep">
+                  <option>CSE</option>
+                  <option>EEE</option>
+                  <option>CE</option>
+              </select>
+               </div>
+               <div class="Session formgroup">
+                <label for="session">Semester</label><br>
+                <select class="dep">
+                  <option>Semester</option>
+                    <option>1-1</option>
+                    <option>1-2</option>
+                    <option>2-1</option>
+                    <option>2-2</option>
+                    <option>3-1</option>
+                    <option>3-2</option>
+                    <option>4-1</option>
+                    <option>4-2</option>
+                </select>
+                 </div>
+          </div>
+                  <div class="Name formgroup">
+                     <label for="Name">Name</label><br>
+                     <input type="text" name="Name" id="Name" placeholder="Enter your name" class="input">
+                  </div>
+                 <div class="mobile formgroup">
+                  <label for="mobile">Mobile</label><br>
+                  <input type="number" name="mobile" id="mobile" class="input">
+               </div>
+                 
+                     <div class="email">
+                     <label for="email">Email</label><br>
+                     <input type="email" name="email" id="email" placeholder="Enter your email" class="input">
+                </div>
+              
+                  <div class="amount">
+                  <label for="amount">Amount of Payment</label><br>
+                  <input type="number" name="amount" id="amount">
+             </div>
+             
+             <div class="next">
+              <button class="save">Next</button> 
+             </div>
        </form>
+</div>
+
+      
+
+ 
+<footer class="footer">
+  <div class="main-content">
+      <p>Contact Us</p>
+      <span>Cell:+88017-XXXXXX</span>
+    </div>
+    <div class="icons">
+      <img src="img/facebook.png">
+      <img src="img/twitter.png">
+      <img src="img/google.png">
+    </div>
+    <div class="privacy">
+      <p>Privacy</p>
+      <p>Terms and Policy</p>
+    </div>
 
 
-       <footer class="footer">
-        <div class="main-content">
-            <p>Contact Us</p>
-            <span>Cell:+88017-XXXXXX</span>
-          </div>
-          <div class="icons">
-            <img src="img/facebook.png">
-            <img src="img/twitter.png">
-            <img src="img/google.png">
-          </div>
-          <div class="privacy">
-            <p><a href="">Privacy</a></p>
-            <p><a href="">Terms and Policy</a></p>
-          </div>
+</footer>
+
   
-
-
-
-
-   </footer>
-
-
-  
-    
+<script src="script.js"></script>  
 </body>
 </html>

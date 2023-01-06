@@ -27,6 +27,7 @@ z-index: 999;
     justify-content: center;
     align-items: center;
     margin: 70px 100px 100px;
+    
 
     
 }
@@ -80,6 +81,7 @@ justify-content: center;
 align-items: center;
   background-color: rgb(129, 196, 232);
   text-align: center;
+  border-radius: 10px;
   
 
   

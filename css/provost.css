@@ -13,14 +13,14 @@
 }
 .provost{
     
-    
- text-align: center;
+    width: 50%;
+     text-align: center;
     color: white;
     font-family: 'Playfair Display', serif;
     font-family: 'PT Serif', serif;
     font-family: 'Rubik Vinyl', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 30px;
+    
+    margin: auto;
 
 
 }
@@ -46,7 +46,7 @@
    
 }
 .provostDetails{
-    margin-top: 20px;
+    
     padding: 20px;
     background-color: rgb(86, 191, 195);
 }
@@ -67,23 +67,27 @@
        }
 }
 @media screen and (max-width:450px){
-   
+   .provost{
+    width: 100%;
+    padding: 10px;
+   }
    .footer{
     position: fixed !important;
-    bottom: 0px;
+    bottom: 0px !important;
    }
    
     
     
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:350px){
    
     
         
-         .footer{
-            position: fixed !important;
-            bottom: 0px;
-         }
+       .provost{
+        width: 100%;
+        margin: 5px 0px 5px;
+       
+       }
 
      
        
