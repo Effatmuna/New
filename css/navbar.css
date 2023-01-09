@@ -121,7 +121,7 @@ transition: .5s;
     position: absolute;
     top: 50px;
     color: black;
-    width: 150px;
+    width: 160px;
     margin-left: -10px;
     display: none;
 
@@ -229,14 +229,21 @@ background-position: center;
 
 .half{
     display: flex;
-    
+    font-size: 17px;
+   font-weight: lighter;
+   
   
 }
 .half1{
     margin: 10px;
+    
+
+    
+    
 }
 .half2{
     margin:80px 10px 10px 10px;
+
 }
 .swiper{
     width:100%;
@@ -443,7 +450,21 @@ h3 {
  .icons :hover{
     background-color: white;
 }
+@media screen and (max-width:800px){
+    .AboutSection{
 
+    }
+    .half{
+        flex-direction: column;
+    }
+    .half1{
+        margin: 5px 0px 0px;
+    }
+    .half2{
+        margin:5px 0px 0px;
+    }
+    
+}
 @media screen and (max-width:700px) {
 
     .navbar {
@@ -490,10 +511,10 @@ h3 {
     }
 
     .navbar .dropdown {
-        right: 50px !important;
+        right: 40px;
         top: 100px !important;
         color: black;
-        width: 90px !important;
+        width: 100px !important;
 
 
     }
@@ -538,7 +559,7 @@ h3 {
 
 @media screen and (max-width:350px) {
     .navbar .dropdown {
-        right: 20px;
+        right: 30px;
         top: 100px;
         color: black;
         width: 80px;
@@ -580,7 +601,7 @@ h3 {
     }
 
     .navbar .dropdown {
-        right: 10px;
+        right: 20px;
         top: 120px;
 
     }

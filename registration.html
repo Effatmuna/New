@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/registration.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=PT+Serif&family=Rubik+Vinyl&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-  />
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Form</title>
 </head>
@@ -103,7 +100,16 @@
                <input type="password" name="password" id="password" class="input">
             </div>
          </div>
-       
+         <div class="emailpass">
+         <div class="session">
+            <label for="session">Session</label><br>
+            <input type="number" name="session" id="session" class="input">
+         </div>
+         <div class="semester">
+            <label for="semester">Semester</label><br>
+            <input type="text" name="semester" id="semester" class="input">
+         </div>
+         </div>
         
          <div class="departBatch formgroup ">
             <div class="depart">
@@ -158,19 +164,16 @@
          <div class="Ginfo">
          <div class="GName formgroup ">
             <label for="GName">Local Guardian's Name</label><br>
-            <input type="text" name="GName" id="GName" placeholder="optional" class="input">
+            <input type="text" name="GName" id="GName" placeholder="optional" class="Input">
          </div>
          
          <div class="GMobile formgroup">
             <label for="GMobile">Local Gaurdian's Contact No.</label><br>
-            <input type="number" name="GMobile" id="GMobile" placeholder="optional" class="input">
+            <input type="number" name="GMobile" id="GMobile" placeholder="optional" class="Input">
          </div>
             </div>
          <div class="address">
-           
-          
             <textarea type="text" col=20 placeholder="Present address"></textarea>
-         
             <textarea type="text" placeholder="Parmanent address"></textarea>
        
          </div>

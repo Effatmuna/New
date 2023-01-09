@@ -66,7 +66,7 @@ z-index:999;
 }
 .dep{
     padding: 10px;
-    width:190px;
+    width:160px;
     margin: 10px;
     background-color: white;
     border: none;
@@ -94,6 +94,9 @@ input{
     margin: 10px;
     border-radius: 5px;
     border: none;
+}
+.Input{
+    width: 350px;
 }
 .upload{
     width: 100px;
@@ -251,7 +254,9 @@ input{
         margin-left: 10px;
         margin-bottom: 5px;
     }
-   
+    .Input{
+        width: 165px;
+    }
    .footer{
     position: relative;
    }

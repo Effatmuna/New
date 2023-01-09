@@ -18,8 +18,7 @@
    
 }
  h1{
-    margin: 0px auto auto;
-    margin-top: 20px;
+    margin:20px auto auto;
     
 
 }
@@ -32,7 +31,8 @@
 }
 .provost{
    
-   margin:50px 100px 100px;
+   width:40%;
+   margin:30px auto auto auto;
    
     
 }
@@ -58,17 +58,16 @@
 }
 @media screen and (max-width:450px){
     .provost{
-        margin: 30px 20px 50px;
+        width:60%;
     }
     
 }
-@media screen and (max-width:260px){
-    .footer{
-        position: fixed;
-        bottom:0px;
-    }
+@media screen and (max-width:290px){
+
    .provost{
-    margin: 15px;
+       width:90%;
+       
+
    }
     
 }
