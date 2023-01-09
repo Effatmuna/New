@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+.process{
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+ .process span{
+    
+    font-weight: lighter;
+    margin: 5px !important;
+
+}
+.process button{
+    padding:10px;
+    text-align: center;
+    margin-top: 10px;
+width: 100%;
+    border-radius: 5px;
+    border: none;
+    
+}
+.navbar{
+    position: sticky;
+}
+@media screen and(max-width:350px) {
+    .process{
+        
+    }
+}

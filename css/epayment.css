@@ -48,23 +48,29 @@ form .depBatch{
     display: flex;
     text-align: center;
     margin-bottom: 5px;
+    
 }
 form .depBatch .dep{
     padding:10px;
     border-radius: 5px;
     border: none;
+    background-color: white;
 }
-form button{
+.next button{
     padding: 10px;
     border-radius: 5px;
     border: none;
     margin-top: 10px;
 }
+
+.payment img{
+    border-radius: 100%;
+}
 .footer{
     width: 100%;
-    position: relative !important;
-    bottom:0px !important;
-    right: 0px !important;
+    position: fixed;
+    bottom:0px ;
+    right: 0px;
     overflow: hidden;
 }
 @media screen and (max-width:550px){
@@ -76,6 +82,13 @@ form button{
     }
     .container{
         width: 70%;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .footer{
+        position: relative !important;
+        bottom: 0px !important;
     }
     
 }

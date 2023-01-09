@@ -200,9 +200,13 @@ background-position: center;
 
     background-color: white;
     padding: 0px 15px 0px 30px;
-    font-family: 'Libre Franklin', sans-serif;
+   
     text-align: justify;
     z-index: 5;
+   
+
+}
+.AboutSection h1{
     font-family: 'Playfair Display', serif;
 
     font-family: 'PT Serif', serif;
@@ -210,14 +214,12 @@ background-position: center;
     font-family: 'Rubik Vinyl', cursive;
 
     font-family: 'Ubuntu', sans-serif;
-
 }
-
 
 .flex {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: space-around;
     padding:0 15px 15px 0px;
     
     
@@ -225,12 +227,16 @@ background-position: center;
     
 }
 
-.flex p {
-    width: 100%;
-     
-    padding-right: -10px;
-
+.half{
+    display: flex;
     
+  
+}
+.half1{
+    margin: 10px;
+}
+.half2{
+    margin:80px 10px 10px 10px;
 }
 .swiper{
     width:100%;

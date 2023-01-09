@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.paymentFailed{
+    text-align: center;
+    box-shadow: 0.5px 0.5px 3px 2px rgb(236, 222, 222);
+    margin: 70px auto auto auto;
+    padding:50px;
+    width:40%;
+    
+    
+    
+    
+}
+h1{
+    color:red;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.paymentFailed a{
+    text-decoration: none;
+    background-color: rgb(226, 172, 183);
+    padding:5px;
+    color:rgb(8, 8, 7);
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 5px;
+   
+}
+.bdt{
+    padding:20px;
+}
+.reason{
+    background-color: rgb(231, 193, 199);
+    padding:20px;
+    margin-top: 20px;
+    
+}
+button{
+    width:100%;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 137, 241);
+    font-size: 20px;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+@media screen and (max-width:300px) {
+    .paymentFailed{
+        width:50%;
+    }
+    .reason{
+        padding:10px;
+    }
+    
+}

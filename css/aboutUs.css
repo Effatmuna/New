@@ -42,6 +42,9 @@ margin-top: 30px;
     
 }
 .footer{
+
+    line-height: 24px;
+    box-sizing: border-box;
     position: fixed;
     bottom: 0px;
 }
@@ -49,10 +52,7 @@ margin-top: 30px;
     .Aboutsection{
         
     }
-    .footer{
-        position: fixed;
-        bottom: 0px;
-    }
+  
   
 }
 @media screen and (max-width:650px) {
@@ -60,9 +60,9 @@ margin-top: 30px;
   
 }
 @media screen and (max-width:444px) {
-    .Aboutsection{
-
-    }
+   .AboutDetails p{
+      font-size: 13px;
+   }
     
 
   
