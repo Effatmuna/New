@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding:0;  
+
+}
+
+.container{
+  
+ margin-top: 100px;
+    
+
+}
+.dropDownPic{
+  margin-top: 0px !important;
+}
+.dropdowN{
+    margin-top: -105px;
+
+}
+.dropdowN p{ 
+    margin: 0px;
+}

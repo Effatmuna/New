@@ -4,50 +4,28 @@
     box-sizing: border-box;
     
 }
-body{
-    position: relative;
-}
-.navbar{
+
+header{
     position: sticky;
     top:0px !important;
 }
 
-
-.Aboutsection{
-
-margin-top: 30px;
-    
-  
-    
-}
 .AboutHeader{
-    border-bottom:orange 2px solid;
-    width:200px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-family: 'PT Serif', serif;
-    font-family: 'Rubik Vinyl', cursive;
-    font-family: 'Ubuntu', sans-serif;
-   
+    border-bottom: 2px solid orange;
+    width: 200px;
     margin: auto;
-    
 }
-.AboutDetails{
-    padding:20px;
+.AboutDetails p{
+
+    display: grid;
     text-align: justify;
-    margin: auto;
-}
-.Aboutsection p{
-  
-    
 }
 .footer{
-
-    line-height: 24px;
-    box-sizing: border-box;
-    position: fixed;
-    bottom: 0px;
+    position: fixed !important;
+    bottom:0px;
 }
+/*
 @media screen and (max-width:750px) {
     .Aboutsection{
         
@@ -59,27 +37,34 @@ margin-top: 30px;
     
   
 }
-@media screen and (max-width:444px) {
+@media screen and (max-width:450px) {
    .AboutDetails p{
       font-size: 13px;
+    
    }
+   
     
 
   
    
 }
-@media screen and (max-width:342px) {
-    .Aboutsection{
-        top:0px;
-    }
-    .Aboutsection h1{
-        font-size: 25px;
-    }
-    .Aboutsection p{
-        font-size: 12px;
-    }
+@media screen and (max-width:400px) {
+  .AboutDetails{
+    padding: 0px;
+    margin: 0px;
+  }
    
 }
+@media screen and (max-width:325px) {
+    .Aboutsection{
+        margin-top: 0px !important;
+    }
+    .AboutDetails{
+      padding: 0px;
+      margin: 0px 20px 20px;
+    }
+     
+  }
 @media screen and (max-width:250px) {
     .Aboutsection{
         top:0px;

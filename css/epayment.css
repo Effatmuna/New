@@ -4,6 +4,9 @@
 
     
 }
+header{
+    position: sticky !important;
+}
 .header{
     
 }
@@ -68,10 +71,9 @@ form .depBatch .dep{
 }
 .footer{
     width: 100%;
-    position: fixed;
-    bottom:0px ;
-    right: 0px;
-    overflow: hidden;
+    
+    bottom:0px;
+    
 }
 @media screen and (max-width:550px){
     .depBatch{

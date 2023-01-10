@@ -12,15 +12,14 @@ body{
 
     
 }
-.navbar{
-    position:sticky !important;
-    top: 0px !important;
-z-index:999;
+header{
+    position: sticky;
+}
 
     
     
     
-}
+
 .container{
     
     

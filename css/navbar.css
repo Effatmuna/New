@@ -8,43 +8,42 @@
 }
 body{
    margin: 0px 0px 0px 0px;
+   position: relative;
 
 }
 
 html {
     scroll-behavior: smooth;
 }
-
+header{
+    position: fixed;
+    top:0px;
+    width:100%;
+    z-index: 999;
+}
 .header {
     display: flex;
     justify-content: space-between;
     
 }
-.navbar {
+.navbaR {
 
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    background-color: rgb(86, 191, 195);
+    background-color: rgb(99, 214, 218);
     box-shadow: 1px 1px 1px white;
     padding: 10px 20px 15px 17px;
     z-index: 999;
     width: 100%;
     flex-wrap: wrap;
-    cursor: pointer;
-    position: fixed;
-    
 
-    
-    
-
-    
 
 }
-.navbar .Register{
+.navbaR .Register{
     margin-top: 15px;
 }
-.navbar .Register a{
+.navbaR .Register a{
     
     font-size: 15px;
     border: none;
@@ -59,16 +58,16 @@ html {
 }
 
 
-.navbar .menuBar {
+.navbaR .menuBar {
     display: none;
 }
 
-.navbar .sust {
+.navbaR .sust {
     width: 50px;
     height: 50px;
 }
 
-.navbar .navList ul {
+.navbaR .navList ul {
     display: flex;
     list-style: none;
     margin-top: 15px;
@@ -80,21 +79,24 @@ html {
 
 }
 
-.navbar ul li {
+.navbaR ul li {
     margin-left: 10px;
+    
 
 }
 
-.navbar ul li a {
+.navbaR ul li a {
     text-decoration: none;
-    color: white;
+    color:white;
+    
+    
 }
-.navbar ul p:hover{
+.navbaR ul p:hover{
 background-color:rgb(168, 232, 105);
 
 transition: .5s;
 }
-.navbar ul li a:hover{
+.navbaR ul li a:hover{
     background-color: rgb(168, 232, 105);
 }
 /*.navbar button{
@@ -106,7 +108,7 @@ transition: .5s;
     padding:15px;
 
 }*/
-.navbar button:hover{
+.navbaR button:hover{
     background-color: papayawhip;
 }
 .navList ul li img {
@@ -117,23 +119,25 @@ transition: .5s;
 
 }
 
-.navList .dropdown {
+.navList .dropdowN {
     position: absolute;
-    top: 50px;
+    top:165px !important;
+  display: none;
     color: black;
     width: 160px;
     margin-left: -10px;
-    display: none;
+    
 
 
 
 }
 
-.navbar .dropdown p {
+.navbaR .dropdowN p {
     padding: 10px;
     background-color: rgb(86, 191, 193);
     text-align: center;
     box-shadow: 1px 1px 1px 1px black;
+
 
 }
 
@@ -144,9 +148,10 @@ transition: .5s;
 .main .welcome {
     background-image: url('../img/hallPic.jpg');
     background-color: paleturquoise;
-background-position: center;
+     background-position: center;
     z-index: 2;
     height: 400px;
+    margin-top: 0px;
     background-repeat: none;
     background-size: cover;
     display: flex;
@@ -168,7 +173,7 @@ background-position: center;
     color: rgb(49, 49, 82);
     padding: 20px;
     border-radius: 10px;
-   margin-top: 50px;
+   margin-top: 0px;
     font-family: 'Libre Franklin', sans-serif;
 
     font-family: 'Playfair Display', serif;
@@ -467,21 +472,21 @@ h3 {
 }
 @media screen and (max-width:700px) {
 
-    .navbar {
+    .navbaR {
         flex-direction: column;
         flex-wrap: wrap;
 
 
     }
 
-    .navbar .menuBar {
+    .navbaR .menuBar {
         display: block;
         position: absolute;
         left:95%;
-        top:20px;
+        top:140px;
     }
 
-    .navbar .navList ul {
+    .navbaR .navList ul {
         flex-direction: column;
         margin-left: 300px;
         background-color: black;
@@ -493,7 +498,7 @@ h3 {
 
     }
 
-    .navbar .navList ul li {
+    .navbaR .navList ul li {
         margin-top: 10px;
         margin-left: -120px;
         
@@ -502,7 +507,7 @@ h3 {
     .Register{
         display: none;
     }
-    .navbar .register {
+    .navbaR .register {
         margin-left: 300px;
         padding: 10px;
         margin-top: 5px;
@@ -510,9 +515,9 @@ h3 {
 
     }
 
-    .navbar .dropdown {
+    .navbaR .dropdowN {
         right: 40px;
-        top: 100px !important;
+        top:200px !important;
         color: black;
         width: 100px !important;
 
@@ -536,18 +541,27 @@ h3 {
 
 @media screen and (max-width:550px) {
 
-    .navbar .navList ul {
+    .navbaR .navList ul {
         margin-left: 20px;
 
     }
 
  
+    .navbaR .dropdowN {
+        right: 40px;
+        top:200px;
+        color: black;
+        width: 100px !important;
 
-    .navbar .menuBar {
-        left: 92%;
+
     }
 
-    .navbar .register {
+    .navbaR .menuBar {
+        left: 92%;
+    
+    }
+
+    .navbaR .register {
         margin-left: 40px;
     }
     .information{
@@ -557,23 +571,28 @@ h3 {
 
 }
 
-@media screen and (max-width:350px) {
-    .navbar .dropdown {
-        right: 30px;
-        top: 100px;
-        color: black;
-        width: 80px;
-
-        padding: 10px;
-
-
-
+@media screen and (max-width:450px){
+    .navbaR .dropdowN {
+        right: 40px;
+        top:330px !important;
+    
+      
 
     }
-    .navbar .menuBar {
+    .navbaR .menuBar {
+        left: 92%;
+        top:255px;
+    
+    }
+   
+} 
+
+@media screen and (max-width:350px) {
+    
+    .navbaR .menuBar {
         left: 89%;
     }
-    .navbar .navList ul li {
+    .navbaR .navList ul li {
         margin-top: 10px;
         margin-left: -120px;
         font-size: 15px;
@@ -588,11 +607,11 @@ h3 {
 }
 
 @media screen and (max-width:250px) {
-    .navbar .register{
+    .navbaR .register{
         margin-left: 30px;
     }
 
-    .navbar .navList ul {
+    .navbaR .navList ul {
         margin-top: 30px;
         margin-left: -10px;
         padding-right: 90px;
@@ -600,16 +619,17 @@ h3 {
 
     }
 
-    .navbar .dropdown {
-        right: 20px;
-        top: 120px;
+    .navbaR .dropdowN {
+        right:25px;
+        top:500px;
+        width:80px !important;
 
     }
 
-    .navbar .menuBar {
+    .navbaR .menuBar {
         left: 87%;
     }
-    .navbar .navList ul li {
+    .navbaR .navList ul li {
         margin-top: 10px;
         margin-left: -0px;
         

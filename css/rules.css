@@ -6,13 +6,27 @@
 .header{
     padding:20px;
     box-shadow: 1px 1px 1px black;
-    background-color:paleturquoise;
+    background-color: rgb(81, 191, 193);
+
 }
-.navbar{
-    position: relative;
+header{
+    position: sticky;
 }
+
 .header .logo{
     border-radius: 100%;
+}
+.navList .dropdowN {
+    position: absolute;
+    top:50px;
+  
+    color: black;
+    width: 160px;
+    margin-left: -10px;
+    
+
+
+
 }
 .details{
     display: flex;
@@ -23,9 +37,9 @@
     height:70px;
     
 }
-.navbar .dropdown{
+.navbaR .dropdowN{
     position: absolute;
-    top:50px;
+    top:55px;
     color:black;
     width:150px;
     margin-left: -10px;
@@ -92,7 +106,7 @@
 
 }
 .footer{
-    position: relative;
+    position:;
 }
 html{
     scroll-behavior: smooth;

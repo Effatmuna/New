@@ -1,6 +1,6 @@
 console.log("hhh");
 const dropDownPic=document.querySelector('.dropDownPic');
-const dropdown=document.querySelector('.dropdown');
+const dropdown=document.querySelector('.dropdowN');
 const menu=document.querySelector('.menuBar');
 const ul=document.querySelector('ul');
 const register=document.querySelector('.Register');
