@@ -2,16 +2,17 @@
     margin:0px;
     padding:0px;
 }
-h1{
+h2{
     display: flex;
     justify-content: center;
-     margin: auto;
+     margin: 20px auto auto !important;
+    
+    border-bottom: 2px solid orange;
+    width:200px;
     font-family: 'Playfair Display', serif;
     font-family: 'PT Serif', serif;
     font-family: 'Rubik Vinyl', cursive;
     font-family: 'Ubuntu', sans-serif;
-    border-bottom: 2px solid orange;
-    width:200px;
 }
 .dropDowN p{
     margin-top: 0px;
@@ -20,4 +21,10 @@ h1{
     
     color:black;
     font-size: 20px;
+}
+@media screen and (max-width:500px){
+    .navbaR .menuBar{
+        left:90% !important;
+    }
+    
 }
