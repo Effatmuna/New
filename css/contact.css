@@ -10,35 +10,34 @@
     font-family: 'PT Serif', serif;
     font-family: 'Rubik Vinyl', cursive;
     font-family: 'Ubuntu', sans-serif;
-    
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 3 1fr;
+    justify-items: center;
+    row-gap: 150px;
 
    
 }
- h1{
-    margin:20px auto auto;
-    
-
+h1{
+    margin: 10px auto auto;
 }
 .act{
     border-bottom:orange 2px solid;
     width:200px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+   
 }
 .provost{
-   
-   width:40%;
-   margin:10px auto auto auto;
-   
+   text-align: center;
+   background-color: rgb(31, 239, 239);
+   margin-top: 35px;
     
 }
 .provostDetails{
-    background-color: rgb(67, 200, 230);
-   text-align: center;
-    color: rgb(30, 8, 8);
-    color: white;
-    padding: 40px;
+    padding: 50px;
+
+    
 }
 .provostDetails h2{
     font-family: 'Playfair Display', serif;
@@ -47,12 +46,7 @@
     font-family: 'Ubuntu', sans-serif;
     
 }
-.footer{
-   position: fixed;
-   bottom: 0px;
-    
-    
-}
+
 @media screen and (max-width:450px){
     .provost{
         width:60%;
@@ -66,12 +60,5 @@
        
 
    }
-    
-}
-@media screen and (min-width:1200px){
-    .footer{
-        position: fixed;
-        bottom:0px;
-    }
     
 }

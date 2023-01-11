@@ -3,35 +3,37 @@
     padding:0px;
     box-sizing: border-box;
 }
+header{
+    position: sticky !important;
+}
 
+.container{
+      display: grid;
+grid-template-columns: 2 1fr;
+grid-template-rows: 1fr 0fr;
+row-gap: 100px;
+justify-items: center;
 
-    
-    .container{
-    
-        margin: auto;
-        width:40%;  
-    }
-
-
-
-
+}
+.provostDetails{
+   text-align: center;
+    padding:50px;
+    margin-top: 40px;
+    grid-column: 1 / span 3;
+    background-color: rgb(48, 220, 220);
+    color: white;
+}
+ 
 
 .provostDetails img{
     width:100px;
     height:100px;
     margin-top: 10px;
 }
-.provostDetails{
-   margin: 20px;
-   background-color: rgb(16, 198, 211);
-   text-align: center;
-   padding:20px;
-   color: white;
-   
-}
+
 .footer{
-    position:fixed !important;
-    bottom:0px !important;
+  grid-column: 1 /span 3;
+    
 }/*
 .provostHeader{
     display: flex;
@@ -84,12 +86,7 @@
     margin: 10px;
    }
   
-    .footer{
-        position: fixed !important;
-        bottom: 0px !important;
-
-    }
-    
+   
      
        
    
