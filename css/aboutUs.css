@@ -4,7 +4,13 @@
     box-sizing: border-box;
     
 }
-
+.container{
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 35px 1fr 60px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
 header{
     position: sticky;
     top:0px !important;
@@ -14,17 +20,21 @@ header{
     text-align: center;
     border-bottom: 2px solid orange;
     width: 200px;
-    margin: auto;
+    margin: 10px auto auto;
+    
 }
 .AboutDetails p{
 
-    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: justify;
+    grid-column: 1 / span 3;
 }
 .footer{
-    position: fixed !important;
+    position: sticky;
     bottom:0px;
 }
+
 /*
 @media screen and (max-width:750px) {
     .Aboutsection{
