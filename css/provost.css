@@ -18,7 +18,7 @@ justify-items: center;
 .provostDetails{
    text-align: center;
     padding:50px;
-    margin-top: 40px;
+    margin-top: 70px;
     grid-column: 1 / span 3;
     background-color: rgb(48, 220, 220);
     color: white;
@@ -78,12 +78,10 @@ justify-items: center;
     
 }*/
 @media screen and (max-width:450px){
-    .container{
-        width: 100%;
-    }
+    
    .provostDetails{
-    padding:10px;
-    margin: 10px;
+
+    
    }
   
    

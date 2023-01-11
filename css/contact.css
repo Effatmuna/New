@@ -19,7 +19,7 @@
    
 }
 h1{
-    margin: 10px auto auto;
+    margin: 20px auto auto;
 }
 .act{
     border-bottom:orange 2px solid;
@@ -31,11 +31,12 @@ h1{
 .provost{
    text-align: center;
    background-color: rgb(31, 239, 239);
-   margin-top: 35px;
+   margin-top: 40px;
     
 }
 .provostDetails{
-    padding: 50px;
+    padding: 70px;
+    color: white;
 
     
 }
