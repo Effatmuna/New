@@ -6,7 +6,18 @@
     
     
 }
+header{
+    position: sticky;
+}
+body{
 
+    
+    background-image: url('../img/about.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:550px;
+}
 .modal{
     
     
@@ -27,8 +38,18 @@
     background-color: black;
     padding: 5px;
 }
-.navbar{
-    position: sticky;
+
+.navList .dropdowN {
+    position: absolute;
+    top:53px !important; 
+  
+    color: black;
+    width: 160px;
+    margin-left: -10px;
+    
+
+
+
 }
 .logInform{
 
@@ -37,21 +58,31 @@
     font-family: 'Rubik Vinyl', cursive;
     font-family: 'Ubuntu', sans-serif;
     flex-wrap: wrap;
-    margin:0px 350px;
+    margin: 40px auto auto;
+    display: grid;
+    grid-template-rows: 3 1fr;
+    grid-template-columns: 3 1fr;
+    justify-items: center;
+    row-gap: 50px;
+    
+    text-align: center;
+   
 
     
     
 }
 .info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+   text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
     border-radius: 10px;
-    background-color: rgb(170, 202, 202);
-    padding: 20px;
-    height: 350px;
+    background-color:black;
+    opacity:0.8;
+    padding: 50px;
+    color:white;
+    
 
 
 }
@@ -70,9 +101,10 @@ input{
 .button{
     
   display: flex;
-  flex-direction: row;
-
+  
+   
   text-align: center;
+  
     
 }
 
@@ -82,7 +114,7 @@ input{
     border: none;
     border-radius: 2px;
     cursor: pointer;
-    margin: 6px;
+    
    
     
 }
@@ -93,54 +125,46 @@ input{
     border: none;
     border-radius: 2px;
     cursor: pointer;
-    margin: 6px;
+    
    
     
 }
-
-@media screen and (max-width:1024px) {
-    .logInform{
-        padding: 50px;
-        margin: 0px 70px;
-        height: 700px;
+@media screen and (max-width:713px){
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:94%;
+        top:25px !important;
     }
     
 }
-@media screen and (max-width:550px) {
-    .logInform{
-        padding: 50px;
-        margin: 0px 70px;
-    }
-    
-}
-@media screen and (max-width:430px) {
-   .logInform{
-    text-align: center;
-    
-    margin: -40px 20px 20px;
-   }
-   .info{
-    height: 400px;
-   }
-}
-@media screen and (max-width:310px) {
-    .logInform{
-        padding: 5px;
-       margin-top: 20px;
-    }
-    
- }
- @media screen and (max-width:200px) {
-    .logInform{
-        margin: 0px;
-        
-    }
-    input{
-        width:150px;
+@media screen and (max-width:450px){
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:90%;
+        top:25px !important;
     }
     .info{
-        margin-top: 30px;
+        padding:20px;
     }
-   
- }
- 
+    
+}
+@media screen and (max-width:250px){
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:90%;
+        top:25px !important;
+    }
+    input{
+        
+        width:100px;
+    }
+    
+
+    .info{
+        
+    }
+    
+}

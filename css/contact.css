@@ -3,51 +3,77 @@
     padding:0;
     
 }
-
+body{
+    background-image: url("../img/pic 10.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overflow{
+  
+  z-index: -1;
+  height:435px;
+}
 .contactUs{
    
-    font-family: 'Playfair Display', serif;
-    font-family: 'PT Serif', serif;
-    font-family: 'Rubik Vinyl', cursive;
-    font-family: 'Ubuntu', sans-serif;
+ 
     display: grid;
     grid-template-columns: 3 1fr;
     grid-template-rows: 3 1fr;
     justify-items: center;
-    row-gap: 150px;
+    row-gap: 50px;
+    
+    margin: 30px auto auto;
+ 
+    
 
    
 }
 h1{
     margin: 20px auto auto;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+
 }
 .act{
     border-bottom:orange 2px solid;
     width:200px;
     display: flex;
     justify-content: center;
+    z-index: 999;
    
 }
 .provost{
    text-align: center;
-   background-color: rgb(31, 239, 239);
-   margin-top: 40px;
+   background-color: skyblue;
+   
+  
+   
+   
+   
     
 }
 .provostDetails{
     padding: 70px;
-    color: white;
+    color: black;
 
     
 }
 .provostDetails h2{
-    font-family: 'Playfair Display', serif;
-    font-family: 'PT Serif', serif;
-    font-family: 'Rubik Vinyl', cursive;
-    font-family: 'Ubuntu', sans-serif;
+  
     
 }
+.navbaR .dropdowN p {
+    padding: 10px;
+    background-color: rgb(86, 191, 193);
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px black;
 
+
+}
 @media screen and (max-width:450px){
     .provost{
         width:60%;

@@ -13,15 +13,24 @@ grid-template-columns: 2 1fr;
 grid-template-rows: 1fr 0fr;
 row-gap: 100px;
 justify-items: center;
+background-image: url("../img/pic 13.jpg");
+background-position: center;
+background-size:cover;
 
+
+}
+.overflow{
+    height: 520px !important;
+    z-index: 1;
 }
 .provostDetails{
    text-align: center;
     padding:50px;
     margin-top: 70px;
     grid-column: 1 / span 3;
-    background-color: rgb(48, 220, 220);
-    color: white;
+    background-color:skyblue;
+    z-index: 2;
+    color: black;
 }
  
 

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css">
-    
+    <link rel="stylesheet" href="css/rules.css">
     
     <link rel="stylesheet" href="css/next.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=PT+Serif&family=Rubik+Vinyl&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -18,20 +18,29 @@
 <body>
     <header>
 
-
-
+        <div class="header">
+            <img class="logo" src="img/logo.png">
+            <img src="img/sust.png">
+            
+            <div class="details">
+            <p>Provost Office</p>
+            <h4>Bangomata Hall</h4>
+            <p>Sylhet Engineering College</p>
+            <p>Sylhet-3100,Bangladesh</p>
+            </div>
+        </div>
        
-          <navbar class="navbar">
+          <navbar class="navbaR">
               <img class="sust" src="img/sust.png">
               
                  <div class="navList">
                   
                   <ul>
-                      <li><a href="">Home</a></li>
+                      <li><a href="index.html">Home</a></li>
                       <li><a href="">About Us</a>
                              <img src="img/down-chevron.png" class="dropDownPic">
                           
-                          <div class="dropdown">
+                          <div class="dropdowN">
                              <a href="aboutUs.html"> <p>History</p></a>
                              <a href="provost.html"> <p>Provost's Details</p></a>
                           </div>
@@ -58,12 +67,12 @@
        </header>
 
          <!--Payment Process-->
-<div class="container">
-    <img src="img/rocket.png" width="100px" height="100px">
-         
-</div>
+
 <div class="process">
-       
+    
+        
+    
+    <div class="steps">
     <span>Step-1: Go to your Rocket Mobile Menu by dialing *322#</span><br>
 
     <span>Step-2: Choose Bill Pay option</span><br>
@@ -75,11 +84,11 @@
    <span> Step-8: Enter the bill amount : BDT 200.</span><br>
     <span>Step-9: Now enter your Rocket Mobile Menu “PIN” to confirm</span><br>
    <span> Step-10: Done! You will receive a confirmation message from 16216</span><br>
-   
-   <button>After Completing Payment, Check Payment Status</button>
+   </div>
+   <a href="paymentStatus.html">After Completing Payment, Check Payment Status</a>
 </div>
 
 
-
+<script src="script.js"></script>
        </body>
        </html>

@@ -2,21 +2,29 @@
     margin:0px;
     padding:0px;
 }
-h2{
+
+h1{
     display: flex;
     justify-content: center;
      margin: 20px auto auto !important;
     
     border-bottom: 2px solid orange;
     width:200px;
+    font-size: 30px !important;
     font-family: 'Playfair Display', serif;
     font-family: 'PT Serif', serif;
     font-family: 'Rubik Vinyl', cursive;
     font-family: 'Ubuntu', sans-serif;
+   
 }
+
 .dropDowN p{
     margin-top: 0px;
 }
+.notice{
+    text-align: justify;
+}
+
 .notice a{
     
     color:black;

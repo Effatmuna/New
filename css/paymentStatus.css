@@ -5,10 +5,12 @@
 }
 .paymentFailed{
     text-align: center;
-    box-shadow: 0.5px 0.5px 3px 2px rgb(236, 222, 222);
+    
     margin: 70px auto auto auto;
-    padding:50px;
-    width:40%;
+    padding:20px;
+   
+   width:40%;
+   border-radius: 2px solid red;
     
     
     
@@ -38,18 +40,21 @@ h1{
     padding:20px;
 }
 .reason{
-    background-color: rgb(231, 193, 199);
+    background-color: rgb(234, 199, 203);
     padding:20px;
     margin-top: 20px;
     
 }
+.bdt{
+    background-color: rgb(234, 209, 211);
+}
 button{
     width:100%;
-    margin-top: 20px;
+  
     padding:10px;
-    border-radius: 5px;
+    
     border: none;
-    background-color: rgb(9, 137, 241);
+    background-color: rgb(231, 8, 8);
     font-size: 20px;
     color:white;
     font-family: 'Playfair Display', serif;

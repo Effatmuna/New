@@ -5,9 +5,35 @@
     
     
 }
-
-.navbar{
+body{
+    
+}
+header{
     position: sticky;
+}
+.navbaR{
+    position: sticky;
+}
+.navList .dropdowN {
+    position: absolute;
+    top:53px !important; 
+  
+    color: black;
+    width: 160px;
+    margin-left: -10px;
+
+
+}
+.overflow{
+    height: 83.7%;
+    z-index: -1;
+}
+body{
+    
+    background-image: url('../img/pic 13.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 .logInform{
 
@@ -16,9 +42,9 @@
     font-family: 'Rubik Vinyl', cursive;
     font-family: 'Ubuntu', sans-serif;
     flex-wrap: wrap;
-    margin:0px 350px 350px;
+    margin:0px 500px 500px;
+   text-align: center;
 
-    
     
 }
 .info{
@@ -28,22 +54,17 @@
     align-items: center;
     margin-top: 50px;
     border-radius: 10px;
-    background-color: rgb(170, 202, 202);
+    background-color: black;
     padding: 50px;
     height: 350px;
+    opacity: 0.8;
+    color: white;
 
 
 }
-input{
-    padding: 10px;
 
-    display: flex;
-    border-radius: 5px;
-    border: none;
-    margin: 10px;
-}
 .footer{
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
 .button{
@@ -67,7 +88,7 @@ input{
 
 .forget{
     text-decoration: none;
-    color:black;
+    color:white;
     
 }
 
@@ -77,12 +98,23 @@ input{
         padding: 50px;
         margin:-10px 10px 30px;
     }
-    
+} 
+@media screen and (max-width:700px){
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:95%;
+        top:25px;
+    }
 }
+
 @media screen and (max-width:550px) {
     .logInform{
         padding: 50px;
         margin:-20px 30px 30px;
+    }
+    input{
+        width:200px;
     }
     
 }
@@ -95,14 +127,14 @@ input{
     height: 400px;
    }
 }
-@media screen and (max-width:310px) {
+@media screen and (max-width:350px) {
     .logInform{
     padding: 0px;
-       margin-top: -50px;
+       margin-top: -30px;
     }
   
  }
- @media screen and (max-width:240px) {
+ @media screen and (max-width:250px) {
     .logInform{
         margin-top: -50px;
         
