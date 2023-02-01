@@ -5,9 +5,91 @@
 
 
 
+}/*
+.gallery{
+	display:flex;
+	flex-direction:column;
+	font-size:20px;
+	align-items:center;
+           gap:50px;
+	margin:50px 0;
 }
+.grid_image{
+	height:200px;
+	width:150px;
+	border-radius:10px;
+	transition:0.2s ease-in-out;
+}
+.grid_image1{
+	height:300px;
+	width:350px;
+}
+.grid_image2{
+	height:300px;
+	width:150px;
+}
+.grid_image7{
+	height:300px;
+	width:150px;
+}
+
+.grid{
+	display:grid;
+	gap:10px;
+	grid-template-areas:
+	"I1 I1 I2 I3"
+	"I1 I1 I2 I7"
+	"I4 I5 I6 I7";
+}
+.item1{
+	grid-area:I1;
+}
+.item2{
+	grid-area:I2;
+}
+.item3{
+	grid-area:I3;
+}
+.item4{
+	grid-area:I4;
+}
+.item5{
+	grid-area:I5;
+}
+.item6{
+	grid-area:I6;
+}
+.item7{
+	grid-area:I7;
+}
+.grid_image:hover{
+	transform:scale(1.05);
+	transition:0.2s ease-in-out;
+}
+.grid_image1:hover{
+	transform:scale(1.05);
+	transition:0.2s ease-in-out;
+}
+.grid_image2:hover{
+	transform:scale(1.05);
+	transition:0.2s ease-in-out;
+}
+.grid_image7:hover{
+	transform:scale(1.05);
+	transition:0.2s ease-in-out;
+}
+.btn_G{
+	padding:15px 10px;
+	border:none;
+	transition:0.2s ease-in-out;
+	background-color: #0c7236;
+	color: aliceblue;
+	font-weight: bold;
+	font-size:20px;
+	border-radius: 5px;
+}*/
 body{
-   margin: 0px 0px 0px 0px;
+
    position: relative;
 
 }
@@ -26,6 +108,14 @@ header{
     justify-content: space-between;
     
 }
+.overflow{
+    background-color:black;
+    z-index: 1;
+    position: absolute;
+    width:100%;
+    height:400px;
+    opacity:0.5;
+}
 .navbaR {
 
     display: flex;
@@ -38,9 +128,13 @@ header{
     width: 100%;
     flex-wrap: wrap;
     font-family: 'Libre Franklin', sans-serif;
+
     font-family: 'PT Serif', serif;
+
     font-family: 'Rubik Vinyl', cursive;
+
     font-family: 'Ubuntu', sans-serif;
+
 
 }
 .navbaR .Register{
@@ -69,6 +163,7 @@ header{
     width: 50px;
     height: 50px;
 }
+
 
 .navbaR .navList ul {
     display: flex;
@@ -111,9 +206,11 @@ transition: .5s;
     padding:15px;
 
 }*/
+
 .navbaR button:hover{
     background-color: papayawhip;
 }
+
 .navList ul li img {
     width: 15px;
     height: 15px;
@@ -122,6 +219,7 @@ transition: .5s;
 
 }
 
+
 .navList .dropdowN {
     position: absolute;
     top:165px !important;
@@ -129,6 +227,7 @@ transition: .5s;
     color: black;
     width: 160px;
     margin-left: -10px;
+
 }
 
 .navbaR .dropdowN p {
@@ -137,23 +236,20 @@ transition: .5s;
     text-align: center;
     box-shadow: 1px 1px 1px 1px black;
 
-}.overflow{
-    background-color:black;
-    z-index: 1;
-    position: absolute;
-    width:100%;
-    height:400px;
-    opacity:0.5;
+
 }
+
 .welcome :hover {
     box-shadow: 1px 1px 1px 1px white;
 }
 
 .main .welcome {
-    background-image: url('../img/pic 12.jpg');
-    background-color: paleturquoise;
+    background-image: url('../img/pic 1.jpg');
+    
     background-position: center;
      background-size: cover;
+    height: 400px;
+    z-index: 2;
     height: 400px;
     margin-top: 0px;
     background-repeat: none;
@@ -161,27 +257,38 @@ transition: .5s;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+   
     font-family: 'Libre Franklin', sans-serif;
+
     font-family: 'PT Serif', serif;
+
     font-family: 'Rubik Vinyl', cursive;
+
     font-family: 'Ubuntu', sans-serif;
 }
-
+.welcome{
+    background:black;
+}
 .welcome h1 {
     font-size: 20px;
     color: rgb(49, 49, 82);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 0px;
+     margin-top: 0px;
     font-family: 'Libre Franklin', sans-serif;
+    z-index: 99;
     font-family: 'Playfair Display', serif;
+
     font-family: 'PT Serif', serif;
+
     font-family: 'Roboto Mono', monospace;
+
     font-family: 'Rubik Vinyl', cursive;
+
     font-family: 'Ubuntu', sans-serif;
     background-color:beige;
     border: 2px solid rgb(0, 238, 255);
-    z-index: 99;
 }
 
 .welcomeHeader {
@@ -203,7 +310,6 @@ transition: .5s;
    
     text-align: justify;
     z-index: 5;
-   
 
 }
 .AboutSection h1{
@@ -214,6 +320,7 @@ transition: .5s;
     font-family: 'Rubik Vinyl', cursive;
 
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 .flex {
@@ -235,7 +342,7 @@ transition: .5s;
   
 }
 .half1{
-    margin: 10px;
+    margin: 20px 10px 10px;
     
 
     
@@ -247,7 +354,7 @@ transition: .5s;
 }
 .swiper{
     width:100%;
-    height:500px;
+    height:470px;
     margin-top: 20px;
     z-index: 0;
     
@@ -365,7 +472,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0px 30px 0px 30px;
+    padding:0px 30px 0px 30px;
     z-index: 2;
     position: relative;
     background-image: linear-gradient(rgb(86, 191, 195),white);
@@ -486,9 +593,10 @@ h3 {
         margin-left: 300px;
         background-color: black;
         display: none;
-        padding: 10px;
+        font-size: 15px;
+        margin-top: -10px;
+        opacity: 0.8;
         
-
 
 
     }
@@ -496,18 +604,26 @@ h3 {
     .navbaR .navList ul li {
         margin-top: 10px;
         margin-left: -120px;
+        z-index: 7;
         
 
     }
+    
     .Register{
-        display: none;
+      display: none;
+     
+        
+        
     }
     .navbaR .register {
         margin-left: 300px;
         padding: 10px;
-        margin-top: 5px;
+        margin-top: 10px;
         
 
+    }
+    .navbaR .register2{
+        
     }
 
     .navbaR .dropdowN {
@@ -537,10 +653,16 @@ h3 {
 @media screen and (max-width:550px) {
 
     .navbaR .navList ul {
-        margin-left: 20px;
+        flex-direction: column;
+        margin-left: 50px;
+        background-color: black;
+        display: none;
+        font-size: 15px;
+        margin-top: -10px;
+        
+
 
     }
-
  
     .navbaR .dropdowN {
         right: 40px;
@@ -550,16 +672,17 @@ h3 {
 
 
     }
-
+    .navbaR .register{
+          margin-left: 50px;
+     }
     .navbaR .menuBar {
         left: 92%;
     
     }
 
-    .navbaR .register {
-        margin-left: 40px;
-    }
+    
     .information{
+        text-align: center;
         flex-direction: column;
     }
     
@@ -579,17 +702,26 @@ h3 {
         top:255px;
     
     }
+    
+  
    
 } 
 
 @media screen and (max-width:350px) {
-    
+   
+
+    .navbaR .dropdowN {
+        right:25px;
+        top:500px;
+        width:80px !important;
+
+    }
     .navbaR .menuBar {
         left: 89%;
     }
     .navbaR .navList ul li {
         margin-top: 10px;
-        margin-left: -120px;
+        margin-left: -100px;
         font-size: 15px;
         
 
@@ -603,23 +735,18 @@ h3 {
 
 @media screen and (max-width:250px) {
     .navbaR .register{
-        margin-left: 30px;
+        margin-left: 10px;
     }
 
     .navbaR .navList ul {
-        margin-top: 30px;
-        margin-left: -10px;
+        margin-top: 0px;
+        margin-left: 10px;
         padding-right: 90px;
         display: none;
 
     }
 
-    .navbaR .dropdowN {
-        right:25px;
-        top:500px;
-        width:80px !important;
-
-    }
+    
 
     .navbaR .menuBar {
         left: 87%;
@@ -632,12 +759,23 @@ h3 {
     }
 
     .information {
-        
+    
+    margin-top: 20px;
     flex-direction: column;
 
 
     }
+    .hallInfo{
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .Provost{
+        padding:0px;
+    }
     .provostSay{
+        word-wrap: break-word;
+        padding:0px;
+        
         
     }
 

@@ -3,56 +3,65 @@
     padding:0;
     
 }
-body{
-    background-image: url("../img/pic 10.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+header{
+    position: sticky !important;
 }
+
+
 .overflow{
-  
-  z-index: -1;
-  height:435px;
-}
-.contactUs{
-   
+    z-index: -1 !important;
+  height: 0vh;
+  }
+  .navList .dropdowN{
+    position: absolute;
+    top:165px !important;
+  display: none;
+    color: black;
+    width: 160px;
+    margin-left: -10px;
+
+  }
+  .back{
  
+    
     display: grid;
-    grid-template-columns: 3 1fr;
-    grid-template-rows: 3 1fr;
-    justify-items: center;
+    grid-template-areas: 'h1 h1 h1 h1' 
+    'contact contact contact contact'
+    'footer footer footer footer';
     row-gap: 50px;
     
-    margin: 30px auto auto;
- 
     
+    
+    
+
+  }
+.contactUs{
+   
+
+grid-area: contact;
+
+justify-self: center;
 
    
 }
 h1{
     margin: 20px auto auto;
-    font-family: 'Playfair Display', serif;
-    font-family: 'PT Serif', serif;
-    font-family: 'Rubik Vinyl', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-
+    color:rgb(3, 3, 8);
+    justify-self: center;
+    grid-area: h1;
 }
 .act{
     border-bottom:orange 2px solid;
     width:200px;
     display: flex;
     justify-content: center;
-    z-index: 999;
    
 }
 .provost{
    text-align: center;
-   background-color: skyblue;
-   
+   background-color:skyblue;
+   margin-top: -10px;
   
-   
-   
    
     
 }
@@ -63,29 +72,60 @@ h1{
     
 }
 .provostDetails h2{
-  
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
     
 }
-.navbaR .dropdowN p {
-    padding: 10px;
-    background-color: rgb(86, 191, 193);
-    text-align: center;
-    box-shadow: 1px 1px 1px 1px black;
 
+.footer{
+    grid-area: footer;
+    
+    
 
+    
+    
 }
+@media screen and (max-width:700px){
+    .navbaR .menubaR{
+    
+            display: block;
+            position: absolute;
+            left:95%;
+            top:50px;
+
+    }
+}
+
 @media screen and (max-width:450px){
-    .provost{
-        width:60%;
+    .provostDetails{
+        padding: 30px;
+        color: black;
+    
+        
     }
     
 }
-@media screen and (max-width:290px){
+@media screen and (max-width:250px){
+ 
+  .provostDetails{
+    padding: 20px;
+    color: black;
 
-   .provost{
-       width:90%;
-       
-
+    
+}
+}
+@media screen and (max-width:222px){
+    .provostDetails{
+        padding: 10px;
+    }
+  .footer{
+    flex-direction: column;
+  }
+   .act{
+    width: 170px;
    }
     
 }
+

@@ -7,22 +7,25 @@
 header{
     position: sticky !important;
 }
-
+.header{
+    
+}
 .navbar{
     
     
 }
-
+.overflow{
+    height:71.7%;
+    z-index: -1;
+}
 body{
-    background-image: url("../img/pic 12.JPG");
+    
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    z-index: 0;
 }
 .container{
-    
-    
+     
     display: grid;
     grid-template-columns: 3 1fr;
     grid-template-rows: 3 1fr;
@@ -30,13 +33,9 @@ body{
     justify-items: center;
     width:50%;
     border-radius: 10px;
-    background-color:darkslategray;
+    background-color:white;
     z-index: 999;
-    color:white;
-    
-    
-    
-    
+    color:black;
     
 }
 form{
@@ -44,10 +43,10 @@ form{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-
+    text-align: center;
     padding: 10px;
-    margin: 20px;
-  opacity: 100% !important;
+    margin: 30px;
+  
     
     
 }
@@ -60,7 +59,7 @@ input{
     padding:10px;
     border-radius: 5px;
     border: none;
-
+border: 1px solid black;
     margin-bottom: 5px;
     margin-top: 5px;
     z-index: 9999;
@@ -70,6 +69,7 @@ input{
     display: flex;
     flex-direction: column;
 }
+
 .depart label{
 
 }
@@ -82,7 +82,7 @@ form .depBatch{
     
     display: flex;
     
-
+   background: white;
     flex-direction: column;
     
 }
@@ -95,7 +95,9 @@ form .depBatch .dep{
     border: none;
     margin-top: 5px;
     width:500px;
+    border: 1px solid black;
     background-color: white;
+    
 }
 form .semister .dep{
     margin-top: 5px;
@@ -106,19 +108,29 @@ form .semister .dep{
     border-radius: 5px;
     border: none;
     margin-top: 0px !important;
-    background-color: rgb(247, 253, 251);
+    background-color: rgb(243, 238, 238);
     color: black;
+
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+    
 }
 .next input{
     width:100px;
     padding: 10px;
+    border: none;
 }
 .payment img{
     border-radius: 100%;
 }
 .footer{
     width: 100%;
-    bottom:0px;
+    
     
 }
 @media screen and (max-width:1200px){
@@ -176,6 +188,15 @@ form .semister .dep{
     form .depBatch .dep{
         width:100px;
         margin-left: 0px;
+    }
+    .Next{
+        text-align: center;
+        
+        position: relative;
+        top:10px;
+    }
+    .payment{
+        margin-top: 20px;
     }
 
   

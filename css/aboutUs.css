@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 3 1fr;
     grid-template-rows: 35px 1fr 60px;
-    row-gap: 50px;
+    row-gap: 70px;
     column-gap: 50px;
 }
 header{
@@ -32,7 +32,7 @@ header{
 }
 .footer{
     position: sticky;
-    bottom:0px;
+    bottom:0px !important;
 }
 
 /*

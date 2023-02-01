@@ -7,25 +7,50 @@
 
 .container {
     text-align: center;
-    margin-top: 40px;
-   display: grid;
-   justify-content: center;
+    margin-top: 40px !important;
+    display: grid;
+    justify-items: center;
     background-color: aliceblue;
     
     
 }
+.navbaR{
+    position: sticky;
+    font-family: 'Libre Franklin', sans-serif;
+
+    font-family: 'PT Serif', serif;
+
+    font-family: 'Rubik Vinyl', cursive;
+
+    font-family: 'Ubuntu', sans-serif;
+}
 header{
     position: sticky;
 }
+.navList .dropdowN {
+    position: absolute;
+    top:50px !important;
+  display: none;
+    color: black;
+    width: 160px;
+    margin-left: -10px;
 
+}
+.container img{
+    
+    width:390px;
+    height:110px;
+    
+    
+}
 .process{
     
   
-    display: flex;
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows:2 1fr;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 40px auto auto;
+    margin: 10px auto 20px auto;
     padding: 10px;
     width:30%;
     box-shadow: 0.5px 0.5px 0.5px 0.5 rgb(46, 25, 65);
@@ -47,24 +72,19 @@ header{
 .process a{
     padding:10px;
     text-align: center;
-    
+    margin-top: 0px;
      width: 100%;
     text-decoration: none;
     border: none;
     color: white;
-    background-color: rebeccapurple;
+    background-color: lightseagreen;
    
 }
 
-@media screen and(max-width:750px) {
+@media screen and(max-width:700px) {
 .container{
     margin-top: 100px !important;
 }
 
+
 }
-@media screen and (max-width:400px){
-    .process{
-        width:60%;
-        
-    }
-} 

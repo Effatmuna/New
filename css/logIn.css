@@ -5,73 +5,69 @@
     
     
 }
+
 body{
     
+
+
 }
+
 header{
     position: sticky;
 }
 .navbaR{
-    position: sticky;
-}
-.navList .dropdowN {
-    position: absolute;
-    top:53px !important; 
-  
-    color: black;
-    width: 160px;
-    margin-left: -10px;
-
 
 }
-.overflow{
-    height: 83.7%;
-    z-index: -1;
-}
-body{
-    
-    background-image: url('../img/pic 13.JPG');
-    background-repeat: no-repeat;
-    background-position: center;
-    
+.navList .dropdowN{
+     position: absolute;
+     top:55px !important;
+     z-index: 3;
 }
 .logInform{
-
     font-family: 'Playfair Display', serif;
     font-family: 'PT Serif', serif;
     font-family: 'Rubik Vinyl', cursive;
     font-family: 'Ubuntu', sans-serif;
     flex-wrap: wrap;
-    margin:0px 500px 500px;
-   text-align: center;
+    margin:50px auto auto;
+    text-align: center;
+    z-index: 6;
+   width: 40%;
 
-    
 }
 .info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 10px;
     background-color: black;
-    padding: 50px;
-    height: 350px;
+    padding: 30px;
+    height: 300px;
     opacity: 0.8;
     color: white;
 
-
 }
-
+input{
+    padding: 10px;
+    width:300px ;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
 .footer{
-    position: sticky;
-    bottom: 0;
-}
-.button{
+    position: fixed !important;
+    bottom: 0px !important;
+    z-index: 2;
     
-  display: flex;
-  flex-direction: column;
-
+}
+.button input{
+  display: flex;    
+  
+justify-content: center;
+align-items: center;
   text-align: center;
     
 }
@@ -93,61 +89,121 @@ body{
 }
 
 
-@media screen and (max-width:950px) {
+
+
+@media screen and (max-width:750px){
     .logInform{
-        padding: 50px;
-        margin:-10px 10px 30px;
+        width:80%;
+        margin-top: 30px;
     }
-} 
+   
+  
+}
 @media screen and (max-width:700px){
     .navbaR .menuBar {
         display: block;
         position: absolute;
         left:95%;
-        top:25px;
+        top:25px !important;
     }
 }
-
 @media screen and (max-width:550px) {
+  
     .logInform{
-        padding: 50px;
-        margin:-20px 30px 30px;
+
+        font-family: 'Playfair Display', serif;
+        font-family: 'PT Serif', serif;
+        font-family: 'Rubik Vinyl', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        flex-wrap: wrap;
+       margin-top: 0px;
+       
+    
     }
+   
+   
     input{
         width:200px;
     }
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:93%;
+        top:25px;
+    }
+    .footer{
+        position: fixed !important;
+        bottom:0px;
+    }
+  
+   
     
 }
 @media screen and (max-width:430px) {
-   .logInform{
-    text-align: center;
-    margin: -90px 20px 20px 20px;
-   }
-   .info{
-    height: 400px;
-   }
+  
+  
+   
 }
 @media screen and (max-width:350px) {
+    
     .logInform{
-    padding: 0px;
-       margin-top: -30px;
+
+        font-family: 'Playfair Display', serif;
+        font-family: 'PT Serif', serif;
+        font-family: 'Rubik Vinyl', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        flex-wrap: wrap;
+       text-align: center;
+       
+      
+    
+    
     }
   
- }
- @media screen and (max-width:250px) {
-    .logInform{
-        margin-top: -50px;
-        
-    }
-    .info{
-        margin-top: 30px;
-    
-
+   
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:90%;
+        top:25px;
     }
     input{
-        width:150px;
+        width:130px;
     }
-   
+    .footer{
+      
+        
+    }
+  
+  
+ }
+ @media screen and (max-width:260px) {
+ 
+    .logInform{
+
+        font-family: 'Playfair Display', serif;
+        font-family: 'PT Serif', serif;
+        font-family: 'Rubik Vinyl', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        flex-wrap: wrap;
+       text-align: center;
+        margin-bottom: 85px;
+    padding: 10px;
+    
+    }
+    .footer{
+        flex-direction: column;
+    }
+  
+    input{
+        width:100px;
+    }
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:85%;
+        top:25px;
+    }
    
  }
  

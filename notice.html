@@ -1,3 +1,30 @@
+<!--<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "epayment";
+// Create connection
+$conn = new mysqli($servername, $username, $password,$database);
+
+// Check connection
+if ($conn->connect_error){
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql1= "SELECT * from board";
+$result1 = mysqli_query($conn,$sql1);
+
+
+
+?> -->
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +53,7 @@
            <div class="navList">
             
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="">About Us</a>
                        <img src="img/down-chevron.png" class="dropDownPic">
                     
@@ -38,16 +65,17 @@
                 
                 </li>
                 <li><a href="rules.html">Rules</a></li>
-                <li><a href="menu.html">Menu</a></li>
+                <li><a href="menu2.html">Menu</a></li>
 
-                <li><a href="notice.html">Notice</a></li>
+                <li><a href="notice.html" active>Notice</a></li>
                 <li><a href="epayment.html">ePayment</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
            
            </div>
            <div class="Register">
-            <a class="register" href="registration.html">Register</a>
+            <a class="register" href="forom.html">Register</a>
+            <a class="register2" href="logIn.html">Log In</a>
            </div>
            <div class="menuBar">
             <img  src="img/menu.png">
@@ -58,12 +86,21 @@
 
 <h1>Notices</h1>
 <div class="notice container text-center mt-5">
-    1. <a href="embed.html">In this case, the remaining fees are due to the staying students</a><br>
-    2. <a href="embed1.html">In this case, the remaining fees are due to the staying students</a><br>
-    3. <a href="embed2.html">For Another Fee</a><br>
-    4. <a href="embed3.html">In this case, the remaining fees are due to the staying students</a><br>
-    5. <a href="embed4.html">In this case, the remaining fees are due to the staying students</a><br>
-    6. <a href="embed5.html">For Another Fee</a>
+<!--<?php
+ $count=1;
+           while($row = mysqli_fetch_assoc($result1))
+           {
+        
+          ?>
+      <h4><?php echo $row['id'],' . ', $row['text'];?></h4>
+   
+  <?php
+         
+           }
+  ?>-->
+  <h4>1. Fee Notice</h4>
+  <h4>2. Pending fee Notice</h4>
+  <h4>3. ABc notice</h4>
 </div>
 
 

@@ -1,38 +1,43 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/provost.css">
-
+    
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/form.css">
+    
     <link rel="stylesheet" href="css/rules.css">
+    <link rel="stylesheet" href="css/style.css?v=<?=$version?>">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=PT+Serif&family=Rubik+Vinyl&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-  />
-
-
-    <title>Document</title>
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Form</title>
 </head>
-<body>
-    <!--Header-->
+<body class="valo">
     
     <header>
-        <div class="header">
-            <img class="logo" src="img/logo.png">
-            <img src="img/sust.png">
-            
-            <div class="details">
-            <p>Provost Office</p>
-            <h4>Bangomata Hall</h4>
-            <p>Sylhet Engineering College</p>
-            <p>Sylhet-3100,Bangladesh</p>
-            </div>
-        </div>
+
+    <div class="header">
+         <img class="logo" src="img/logo.png">
+         <img src="img/sust.png">
+         
+         <div class="details">
+         <p>Provost Office</p>
+         <h4>Bangomata Hall</h4>
+         <p>Sylhet Engineering College</p>
+         <p>Sylhet-3100,Bangladesh</p>
+         </div>
+     </div>
+
+
         <navbar class="navbaR">
             <img class="sust" src="img/sust.png">
             
@@ -51,7 +56,7 @@
                     
                     </li>
                     <li><a href="rules.html">Rules</a></li>
-                    <li><a href="menu2.html">Menu</a></li>
+                    <li><a href="menu.html">Menu</a></li>
                     <li><a href="notice.html">Notice</a></li>
                     <li><a href="epayment.html">ePayment</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -59,58 +64,58 @@
                
                </div>
                <div class="Register">
-                <a class="register" href="forom.html">Register</a>
+                <a class="register" href="registration.html">Register</a>
                 <a class="register2" href="logIn.html">Log In</a>
                </div>
+
+
                <div class="menuBar">
                 <img  src="img/menu.png">
                 </div>
             </navbar>
-            
-     </header>
+</header>
+<div class="overflow"></div>
+<div class="regis">
+<div class="job">
+	 <h1> Application<small> (form)</small></h1>
+	 <form action="data_chck.php" method="POST">
+	  <div class="forom1">
+	  <div class="main1">
+	  <label for="first_name">Name</label>
+	  <input id="first_name" name="name" placeholder="Enter your  name...."/>
+	  </div> 
 
-
-
-   
-    <!--Main-->
-    
-    <div class="container">
-  
-        
-        <div class="provostDetails">
-            <h1 class="provostHeader">Provost</h1>
-    
-            <img src="img/user(1).png">
-            <h2>Naznin Ara</h2>
-            <p>Assistant Professor of<br> Matheatics</p>
-            <p>Email: aba@gmail.com</p>
-            <p>Cell: 017XXXXXXXX</p>
-        </div>
-      
-  
-    <footer class="footer">
-        <div class="main-content">
-            <p>Contact Us</p>
-            <span>Cell:+88017-XXXXXX</span>
-          </div>
-          <div class="icons">
-            <img src="img/facebook.png">
-            <img src="img/twitter.png">
-            <img src="img/google.png">
-          </div>
-          <div class="privacy">
-            <p>Privacy</p>
-            <p>Terms and Policy</p>
-          </div>
-
-
-   </footer>
+	  <div class="main1">
+	  <label for="reg">Reg_no</label>
+	  <input type="number"id="reg" name="Reg_no"/>
+	  </div>
+      <div class="main1">
+	  <label for="Dept">Dept</label>
+	  <input type="text"id="Dept" name="Dept"/>
+	  </div>
+	  <div class="main1">
+	  <label for="Session">Session</label>
+	  <input id="Session" name="Session"/>
+	  </div>
+	 
+      <div class="main1">
+	  <label for="phone">Phone</label>
+	  <input type="number"id="phone" name="Phone" placeholder="01*******"/>
+	  </div>
+	  
+	  
+	  <div class="btn2">
+	  <button type="submit" value="apply" class="btn_2"  name="apply">Apply Now</button>
+	  </div>
+	 </form>
+	 
+	</div>
 </div>
 
 
 
 
-
-    <script src="script.js"></script>
+    
+       <script src="script.js"></script>
 </body>
 </html>

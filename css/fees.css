@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.student{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.logout{
+    background-color: white;
+    padding:10px;
+    border-radius: 5px;
+    
+}
+.logout a{
+    color: black;
+}

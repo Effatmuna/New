@@ -1,0 +1,40 @@
+.logout{
+    float:right;
+    padding-right:30px;
+}
+.logout a{
+    
+    font-size: 15px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(232, 232, 239);
+    padding:12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+aside ul{
+    background-color:  #424a5b;
+    width:16%;
+    height: 100%;
+    position:fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+aside ul li{
+    list-style:none;
+    padding-bottom:30px;
+    font-size: 15px;
+}
+aside ul li a{
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+.content{
+    margin-top:5%;
+    margin-left: 19%;
+    padding:20px 30px 15px 0px;
+}

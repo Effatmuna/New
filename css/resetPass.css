@@ -9,14 +9,16 @@
 header{
     position: sticky;
 }
+.overflow{
+    height: 100%;
+    z-index: -1;
+}
 body{
-
-    
-    background-image: url('../img/about.JPG');
-    background-repeat: no-repeat;
+    background-image: url("../img/pic 13.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height:550px;
+    height: 550px;
 }
 .modal{
     
@@ -64,9 +66,8 @@ body{
     grid-template-columns: 3 1fr;
     justify-items: center;
     row-gap: 50px;
-    
+    z-index: 5;
     text-align: center;
-   
 
     
     
@@ -78,10 +79,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
     border-radius: 10px;
-    background-color:black;
-    opacity:0.8;
+    background-color: black;
+    opacity: 0.8;
     padding: 50px;
-    color:white;
+    color: white;
     
 
 
@@ -136,6 +137,7 @@ input{
         left:94%;
         top:25px !important;
     }
+    
     
 }
 @media screen and (max-width:450px){
